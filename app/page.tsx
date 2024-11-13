@@ -1,10 +1,12 @@
-import Image from "next/image";
-import MainLayout from "./components/MainLayout";
+import Header from "./components/Header";
+import VideoBackgroundBanner from "./components/VideoBackgroundBanner";
 
 export default function Home() {
   return (
-   <MainLayout>
-    
-   </MainLayout>
+    <>
+      <Header />
+      {/* Landing Video Section */}
+      <VideoBackgroundBanner />
+    </>
   );
 }
