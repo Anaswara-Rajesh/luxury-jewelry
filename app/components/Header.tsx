@@ -36,7 +36,7 @@ export default function Header() {
     return (
         <>
             <header
-                className={`absolute top-0 left-0 w-full py-4 z-20 transition-all duration-300 ${isActive ? "bg-white" : "bg-transparent"}`}
+                className={` absolute top-0 left-0  w-full py-4 z-20 transition-all duration-300 ${isActive ? "bg-white" : "bg-transparent"}`}
             >
                 <div className="px-6 mx-auto flex items-center justify-between">
                     {/* Left Section */}
